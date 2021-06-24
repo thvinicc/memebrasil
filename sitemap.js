@@ -1,5 +1,5 @@
 // ---------------------------------------------------
-// GERADORMEME
+// BLOGTOC
 // ---------------------------------------------------
 // BlogToc creates a clickable Table Of Contents for
 // Blogger Blogs.
@@ -9,6 +9,7 @@
 // label.
 // ---------------------------------------------------
 // Author: Beautiful Beta
+// Url: http://beautifulbeta.blogspot.com
 // Version: 2
 // Date: 2007-04-12
 // ---------------------------------------------------
@@ -232,7 +233,7 @@ function displayToc(filter) {
    }
    tocTable += '</table>';
    if (numDisplayed == postTitle.length) {
-      var tocNote = '<span class="toc-note">Todos Mames ' + postTitle.length + ' Postados<br/></span>'; }
+      var tocNote = '<span class="toc-note">Todos Memes ' + postTitle.length + ' postados<br/></span>'; }
    else {
       var tocNote = '<span class="toc-note">Displaying ' + numDisplayed + ' posts labeled \'';
       tocNote += postFilter + '\' of '+ postTitle.length + ' posts total<br/></span>';
